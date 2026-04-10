@@ -1,0 +1,39 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Experiments & outputs
+experiments/*.json
+experiments/*.png
+experiments/*.txt
+!experiments/.gitkeep
+
+# Data - only ignore generated/processed data
+# Keep training_traffic.csv as it's the training dataset
+
+# Docker volumes
+docker/prometheus-data/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
