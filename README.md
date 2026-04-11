@@ -9,6 +9,22 @@ This project implements an end-to-end AIOps system that:
 - Performs proactive auto-scaling of containerized services
 - Demonstrates that AI-driven predictive scaling outperforms traditional threshold-based scaling
 
+### Sample Results
+
+![Comparison](images/comparison.png)
+
+### Predictive Mode Scaling Events
+
+![Predictive Scaling](images/predictive_scaling.png)
+
+### Threshold Mode Scaling Events
+
+![Threshold Scaling](images/threshold_scaling.png)
+
+### No Scaling Mode (Baseline)
+
+![No Scaling](images/no_scaling_scaling.png)
+
 ## Architecture
 
 ```
@@ -189,6 +205,7 @@ The system compares three scenarios and outputs:
 - Scale events
 - Overload events
 - Stability score
+
 
 ## License
 
