@@ -88,8 +88,10 @@ python scripts/traffic_generator.py --url http://localhost:5000 --duration 300 -
 python src/controller/auto_scaling_controller.py --mode predictive --duration 300
 ```
 
-#### Reset data
+#### Reset data after each scenario run
+```bash
 cd docker && docker compose down && docker volume rm docker_prometheus-data 2>/dev/null; docker compose up -d
+```
 
 ### 5. Evaluate Results
 
