@@ -112,7 +112,7 @@ def plot_scaling_events(metrics_data, title, output_path):
     ax1.legend()
     ax1.grid(True, alpha=0.3)
     
-    ax2.plot(timestamps, container_counts, label='Container Count', color='#2ecc71', linewidth=2, step='mid')
+    ax2.plot(timestamps, container_counts, label='Container Count', color='#2ecc71', linewidth=2, drawstyle='steps-mid')
     ax2.set_xlabel('Time (s)')
     ax2.set_ylabel('Containers')
     ax2.legend()
