@@ -9,7 +9,7 @@ This project implements an end-to-end AIOps system that:
 - Performs proactive auto-scaling of containerized services
 - Demonstrates that AI-driven predictive scaling outperforms traditional threshold-based scaling
 
-### Architechture
+## Architecture
 
 ![Architechture](images/architechture.png)
 
@@ -28,21 +28,6 @@ This project implements an end-to-end AIOps system that:
 ### No Scaling Mode (Baseline)
 
 ![No Scaling](images/no_scaling_scaling.png)
-
-## Architecture
-
-```
-┌─────────────────┐     ┌──────────────────────┐     ┌─────────────────┐
-│  Traffic        │────▶│  Prediction Service  │────▶│  Decision       │
-│  Generator      │     │  (FastAPI + ML)      │     │  Engine         │
-└─────────────────┘     └──────────────────────┘     └────────┬────────┘
-                                                               │
-                                                               ▼
-┌─────────────────┐     ┌──────────────────────┐     ┌────────┴────────┐
-│  Prometheus     │◀────│  Docker Compose      │◀────│  Auto Scaling  │
-│  + Grafana      │     │  (Webapp Containers)│     │  Controller    │
-└─────────────────┘     └──────────────────────┘     └─────────────────┘
-```
 
 ## Quick Start
 
