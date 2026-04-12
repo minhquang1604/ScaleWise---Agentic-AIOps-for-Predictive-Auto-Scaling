@@ -11,6 +11,10 @@ This project implements an end-to-end AIOps system that:
 
 ### Sample Results
 
+![Architechture](images/architechture.png)
+
+### Sample Results
+
 ![Comparison](images/comparison.png)
 
 ### Predictive Mode Scaling Events
