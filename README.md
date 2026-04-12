@@ -9,7 +9,7 @@ This project implements an end-to-end AIOps system that:
 - Performs proactive auto-scaling of containerized services
 - Demonstrates that AI-driven predictive scaling outperforms traditional threshold-based scaling
 
-### Sample Results
+### Architechture
 
 ![Architechture](images/architechture.png)
 
