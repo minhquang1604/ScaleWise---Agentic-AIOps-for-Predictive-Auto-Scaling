@@ -1,4 +1,4 @@
-# ScaleWise - Agentic AIOps for Predictive Auto Scaling
+# ScaleWise - Predictive Auto Scaling
 
 System for proactive network performance management using machine learning and Docker container auto-scaling.
 
